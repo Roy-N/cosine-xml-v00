@@ -1,0 +1,72 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='86669' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019710015</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020710015</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-48-16.61945</Lat>
+   <Lon>W79-23-23.10240</Lon>
+   <ellipsoidal-elev order='-'>154.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E629527.674</e>
+    <n>N4851216.495</n>
+    <mc>1-06-53.2</mc>
+    <csf>0.99978221</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E313671.014</e>
+    <n>N4851417.903</n>
+    <mc>0-04-34.7</mc>
+    <csf>0.99987682</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-48-16.81459</Lat>
+   <Lon>W79-23-22.39164</Lon>
+   <ellipsoidal-elev order='4'>122.403</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E629539.716</e>
+    <n>N4851438.761</n>
+    <mc>1-06-53.7</mc>
+    <csf>0.99978720</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E313686.636</e>
+    <n>N4851639.984</n>
+    <mc>0-04-35.2</mc>
+    <csf>0.99988177</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>154.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>158.xxx</orthometric-elev>
+   <mdefl>-1.1</mdefl>
+   <pvdefl>0.2</pvdefl>
+   <undulation>-36.338</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP OF BC</p1>
+   <p2>
+    <l> Township: City of Toronto  IN SOUTH CURB</l>
+    <l>STEELES AVE., 85M EAST OF TARBERT RD.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 2008/05/15, last</l>
+   <l>maintained: 1989/11/06</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

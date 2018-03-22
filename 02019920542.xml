@@ -1,0 +1,72 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='95407' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019920542</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020920542</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-38-58.49253</Lat>
+   <Lon>W79-29-43.21274</Lon>
+   <ellipsoidal-elev order='-'>93.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E621346.917</e>
+    <n>N4833837.953</n>
+    <mc>1-02-19.4</mc>
+    <csf>0.99976653</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E305176.178</e>
+    <n>N4834188.420</n>
+    <mc>0-00-11.6</mc>
+    <csf>0.99988542</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-38-58.68882</Lat>
+   <Lon>W79-29-42.49893</Lon>
+   <ellipsoidal-elev order='4'>56.861</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E621359.324</e>
+    <n>N4834060.059</n>
+    <mc>1-02-19.9</mc>
+    <csf>0.99977224</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E305192.162</e>
+    <n>N4834410.336</n>
+    <mc>0-00-12.1</mc>
+    <csf>0.99989108</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>93.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>93.xxx</orthometric-elev>
+   <mdefl>-0.9</mdefl>
+   <pvdefl>1.6</pvdefl>
+   <undulation>-36.422</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP OF BC</p1>
+   <p2>
+    <l> Township: City of Toronto  IN CSW NE COR BLOOR</l>
+    <l>ST. W. AT HUMBER BLVD.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 1992/11/19, last</l>
+   <l>maintained: 1992/11/19</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

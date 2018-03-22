@@ -1,0 +1,46 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='90008' status='1' Monument-type='CAP' station-type='-'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019770034</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020770034</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-38-30.64843</Lat>
+   <Lon>W79-29-38.93022</Lon>
+   <ellipsoidal-elev order='-'>96.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E621458.441</e>
+    <n>N4832980.690</n>
+    <mc>1-02-21.8</mc>
+    <csf>0.99976640</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E305272.205</e>
+    <n>N4833329.180</n>
+    <mc>0-00-14.5</mc>
+    <csf>0.99988495</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>96.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP BC</p1>
+   <p2>
+    <l> Township: City of Toronto  9.9M N IVY LEA CRES</l>
+    <l>CL 11.8M E RIVERWOOD PKWYCL</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 1987/08/07, last</l>
+   <l>maintained: 1987/08/07</l>
+  </maintenance-text>
+ </station >
+</cosine-stations> 

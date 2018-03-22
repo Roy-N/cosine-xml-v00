@@ -1,0 +1,149 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='17798' status='Existing' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>0011978U3005</AKA>
+   <AKA stamped-on-monument='no' Remarks='Renamed 2000/02/16 15:43:14'>00178U3005</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='From COSINE XDB file'>78-1</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='From COSINE XDB file'>78U3005</AKA>
+  </name >
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='B'>
+   <Lat>N43-57-22.63180</Lat>
+   <Lon>W78-9-51.78856</Lon>
+   <ellipsoidal-elev order='2'>40.654</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E727513.220</e>
+    <n>N4870927.115</n>
+    <mc>1-58-08.6</mc>
+    <csf>1.00023030</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E246107.118</e>
+    <n>N4871886.728</n>
+    <mc>-2-11-51.4</mc>
+    <csf>1.00038652</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E411992.807</e>
+    <n>N4869345.685</n>
+    <mc>0-55-37.7</mc>
+    <csf>1.00003490</csf>
+   </mtm>
+   <mtm zone='9'>
+    <e>E171220.628</e>
+    <n>N4869825.286</n>
+    <mc>-1-09-19.6</mc>
+    <csf>1.00011302</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNv3-1997.0' order='B'>
+   <Lat>N43-57-22.63224</Lat>
+   <Lon>W78-9-51.78971</Lon>
+   <ellipsoidal-elev order='3'>40.656</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E727513.194</e>
+    <n>N4870927.127</n>
+    <mc>1-58-08.6</mc>
+    <csf>1.00023030</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E246107.093</e>
+    <n>N4871886.742</n>
+    <mc>-2-11-51.4</mc>
+    <csf>1.00038652</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E411992.781</e>
+    <n>N4869345.698</n>
+    <mc>0-55-37.7</mc>
+    <csf>1.00003490</csf>
+   </mtm>
+   <mtm zone='9'>
+    <e>E171220.603</e>
+    <n>N4869825.300</n>
+    <mc>-1-09-19.6</mc>
+    <csf>1.00011302</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:ORIG' order='3'>
+   <Lat>N43-57-22.64230</Lat>
+   <Lon>W78-9-51.79015</Lon>
+   <ellipsoidal-elev order='-'>40.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E727513.174</e>
+    <n>N4870927.437</n>
+    <mc>1-58-08.6</mc>
+    <csf>1.00023032</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E246107.095</e>
+    <n>N4871887.053</n>
+    <mc>-2-11-51.4</mc>
+    <csf>1.00038654</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E411992.766</e>
+    <n>N4869346.008</n>
+    <mc>0-55-37.7</mc>
+    <csf>1.00003491</csf>
+   </mtm>
+   <mtm zone='9'>
+    <e>E171220.599</e>
+    <n>N4869825.610</n>
+    <mc>-1-09-19.6</mc>
+    <csf>1.00011303</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD2013' order='1'>
+   <orthometric-elev>76.426</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='CGVD-1928:1978' order='1'>
+   <orthometric-elev>76.774</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='1'>
+   <orthometric-elev>76.788</orthometric-elev>
+   <mdefl>-4.0</mdefl>
+   <pvdefl>-0.9</pvdefl>
+   <undulation>-36.110</undulation>
+  </geoidal-data>
+  <location-text>
+   <p2>
+    <l> MKR TYPE D SETTING CODE 02 ON WHARF AT S END OF</l>
+    <l>DIVISION  ST IN COBOURG, S END OF HWY #45. MKD BY WATER</l>
+    <l>RESOURCES  BR TAB ON W SIDE OF WHARF, 18.9 M SW OF RED BRICK</l>
+    <l>GAUGE  HOUSE, 9.8 M W OF FENCE AROUND ENVIRONMENT CANADA </l>
+    <l>AUTOMATIC METEOROLOGICAL STA AND 43 CM NE OF FIRST  BOLLARD.</l>
+    <l>AN ORANGE CYL WITNESS SIGN WAS SET 9.79 M AWAY  AT A MAG BRG</l>
+    <l>OF 289 DEG TO THE STA, ATTACHED TO THE  FENCE AROUND</l>
+    <l>METEOROLOGICAL STA.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Established by Water Survey of Canada - EC.</l>
+   <l>Inspected 2005. Occupied Nov 2015.</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FIXV'>1514AV</member-of-network>
+  <member-of-network usage='WTD'>1514CS</member-of-network>
+  <member-of-network usage='FIXH'>2116</member-of-network>
+  <member-of-network usage='WTD'>2116CS</member-of-network>
+  <member-of-network usage='WTD'>2117CS</member-of-network>
+  <member-of-network usage='FIX'>3238</member-of-network>
+  <member-of-network usage='FIX'>3238V</member-of-network>
+  <member-of-network usage='FIX'>3263</member-of-network>
+  <member-of-network usage='FREE'>96</member-of-network>
+  <member-of-network usage='FREE'>A2ANDB2</member-of-network>
+  <member-of-network usage='FREE'>C2ANDD2</member-of-network>
+  <member-of-network usage='WTD'>CBN31B</member-of-network>
+ </station >
+</cosine-stations> 

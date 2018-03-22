@@ -1,0 +1,67 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='86667' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019710013</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020710013</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-48-22.30990</Lat>
+   <Lon>W79-23-00.32499</Lon>
+   <ellipsoidal-elev order='-'>162.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E630033.196</e>
+    <n>N4851401.976</n>
+    <mc>1-07-09.1</mc>
+    <csf>0.99978257</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E314179.862</e>
+    <n>N4851594.208</n>
+    <mc>0-04-50.5</mc>
+    <csf>0.99987568</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-48-22.50474</Lat>
+   <Lon>W79-22-59.61308</Lon>
+   <ellipsoidal-elev order='4'>122.046</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E630045.248</e>
+    <n>N4851624.236</n>
+    <mc>1-07-09.6</mc>
+    <csf>0.99978887</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E314195.495</e>
+    <n>N4851816.283</n>
+    <mc>0-04-51.0</mc>
+    <csf>0.99988194</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>162.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP OF BC</p1>
+   <p2>
+    <l> Township: City of Toronto  11.3 NORTH OF</l>
+    <l>STEELES AVE E & 18.6 EAST OF BESTVIEW DR</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 2008/05/15, last</l>
+   <l>maintained: 1982/12/09</l>
+  </maintenance-text>
+  <misc-info>
+   <other-geoidal-data>HT-2001 [-]</other-geoidal-data>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

@@ -1,0 +1,46 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='99174' status='1' Monument-type='BM' station-type='-'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>12519670452</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>E452</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='-'>
+   <Lat>N43-38-55.7xxxx</Lat>
+   <Lon>W79-29-39.5xxxx</Lon>
+   <ellipsoidal-elev order='-'>93.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E621429.xxx</e>
+    <n>N4833756.xxx</n>
+    <mc>1-02-21.8</mc>
+    <csf>0.99976678</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E305257.xxx</e>
+    <n>N4834105.xxx</n>
+    <mc>0-00-14.1</mc>
+    <csf>0.99988542</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='T3'>
+   <orthometric-elev>93.090</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>Created on 2010/10/10.</p1>
+   <p2>
+    <l> Township: City of Toronto  NO. 2651 BLOOR ST</l>
+    <l>(APT BLDG) ON S SIDE OF BLOOR ST APPROX 91.44M W OF HUMBER</l>
+    <l>RIVER BRIDGE. PLATE ON NE COR OF APT BLDG.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 2010/02/09</l>
+  </maintenance-text>
+ </station >
+</cosine-stations> 

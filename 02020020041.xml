@@ -1,0 +1,71 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='13605' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='Loaded into COSINE on 2006/06/12 at 12:53:35'>
+   <AKA stamped-on-monument='no' Remarks='Loaded into COSINE on 2007/01/18 at 18:26:44'>020020041</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Loaded into COSINE on 2006/06/12 at 12:53:35'>02020020041</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-39-19.74152</Lat>
+   <Lon>W79-20-10.16594</Lon>
+   <ellipsoidal-elev order='-'>77.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E634171.340</e>
+    <n>N4834738.572</n>
+    <mc>1-08-55.5</mc>
+    <csf>0.99980935</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E318016.065</e>
+    <n>N4834857.181</n>
+    <mc>0-06-47.2</mc>
+    <csf>0.99989007</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-39-19.94349</Lat>
+   <Lon>W79-20-09.44293</Lon>
+   <ellipsoidal-elev order='4'>40.114</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E634183.568</e>
+    <n>N4834960.889</n>
+    <mc>1-08-56.0</mc>
+    <csf>0.99981517</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E318031.874</e>
+    <n>N4835079.310</n>
+    <mc>0-06-47.7</mc>
+    <csf>0.99989586</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>77.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>76.xxx</orthometric-elev>
+   <mdefl>-1.9</mdefl>
+   <pvdefl>0.0</pvdefl>
+   <undulation>-36.445</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>SET BC NOV 27, 2002</p1>
+   <p2>
+    <l> Township: City of Toronto  IN SOUTH CSW</l>
+    <l>LAKESHORE BLVD E 150M EAST CARLAW AVE.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last maintained: 2002/11/27</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

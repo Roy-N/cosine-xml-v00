@@ -1,0 +1,71 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='87396' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019720422</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020720422</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-42-31.49719</Lat>
+   <Lon>W79-32-04.06883</Lon>
+   <ellipsoidal-elev order='-'>134.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E618075.317</e>
+    <n>N4840352.803</n>
+    <mc>1-00-46.1</mc>
+    <csf>0.99975047</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E302022.521</e>
+    <n>N4840762.174</n>
+    <mc>-0-01-25.7</mc>
+    <csf>0.99987908</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-42-31.68869</Lat>
+   <Lon>W79-32-03.36823</Lon>
+   <ellipsoidal-elev order='4'>97.338</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E618087.506</e>
+    <n>N4840574.820</n>
+    <mc>1-00-46.5</mc>
+    <csf>0.99975625</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E302038.286</e>
+    <n>N4840984.004</n>
+    <mc>-0-01-25.2</mc>
+    <csf>0.99988483</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>134.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>133.xxx</orthometric-elev>
+   <mdefl>-0.7</mdefl>
+   <pvdefl>0.8</pvdefl>
+   <undulation>-36.388</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>RESECT BC JAN 15, 2006</p1>
+   <p2>
+    <l> Township: City of Toronto  IN CSW SW COR.</l>
+    <l>WESTON RD. AT FAIR GLEN CRES.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last maintained: 2006/02/15</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

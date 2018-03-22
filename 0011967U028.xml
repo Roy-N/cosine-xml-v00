@@ -1,0 +1,58 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='10738' status='Destroyed' Monument-type='BM' station-type='SPIR'> 
+  <name stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>0011967U028</AKA>
+   <AKA stamped-on-monument='no' Remarks='From COSINE XDB file'>00167U028</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='From COSINE XDB file'>67U028</AKA>
+  </name >
+  <ellipsoidal-data datum='NAD-1983:ORIG' order='-'>
+   <Lat>N43-54-50.0xxxx</Lat>
+   <Lon>W78-45-29.8xxxx</Lon>
+   <utm zone='17'>
+    <e>E679989.xxx</e>
+    <n>N4864751.xxx</n>
+    <mc>1-33-18.8</mc>
+    <csf>0.99999846</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E364370.xxx</e>
+    <n>N4864035.xxx</n>
+    <mc>0-30-52.0</mc>
+    <csf>0.99994363</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD2013' order='-'>
+   <orthometric-elev>141.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='CGVD-1928:1978' order='-'>
+   <orthometric-elev>141.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p2>
+    <l> DESTROYED --- BOWMANVILLE - RESIDENCE OF H.</l>
+    <l>HIBBEN ON NORTH SIDE OF HIGHWAY NO. 2, 73 M EAST OF SOLINA</l>
+    <l>ROAD, 5.8 KM WEST OF POST OFFICE, TABLET IN WEST CONCRETE</l>
+    <l>FOUNDATION WALL, 1.52 M FROM SOUTHWEST CORNER, 60 CM BELOW</l>
+    <l>RED IMITATION BRICK SIDING.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Established by GSC 1967. House demolished</l>
+   <l>around 2015/16 for highway interchange construction.</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FIX'>3272V</member-of-network>
+  <member-of-network usage='FIX'>3272V13</member-of-network>
+ </station >
+</cosine-stations> 

@@ -1,0 +1,71 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='87770' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019730375</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020730375</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-42-22.43958</Lat>
+   <Lon>W79-31-57.85590</Lon>
+   <ellipsoidal-elev order='-'>128.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E618219.309</e>
+    <n>N4840075.828</n>
+    <mc>1-00-50.2</mc>
+    <csf>0.99975183</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E302161.497</e>
+    <n>N4840482.604</n>
+    <mc>-0-01-21.4</mc>
+    <csf>0.99988001</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-42-22.63005</Lat>
+   <Lon>W79-31-57.15315</Lon>
+   <ellipsoidal-elev order='4'>96.572</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E618231.543</e>
+    <n>N4840297.812</n>
+    <mc>1-00-50.7</mc>
+    <csf>0.99975679</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E302177.307</e>
+    <n>N4840704.400</n>
+    <mc>-0-01-20.9</mc>
+    <csf>0.99988494</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>128.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>132.xxx</orthometric-elev>
+   <mdefl>-0.7</mdefl>
+   <pvdefl>0.8</pvdefl>
+   <undulation>-36.389</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>RESECT CP OF BC SEPT 22, 2005</p1>
+   <p2>
+    <l> Township: City of Toronto  IN ISLAND AT WESTON</l>
+    <l>RD & ST PHILLIPS RD</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last maintained: 2005/09/22</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

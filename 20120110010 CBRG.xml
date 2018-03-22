@@ -1,0 +1,68 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='113281' status='Existing' Monument-type='RTK' station-type='BASE'> 
+  <name stamped-on-monument='no' Remarks='Loaded into COSINE on 2012/03/29 at 15:45:16'>
+   <AKA stamped-on-monument='no' Remarks='Loaded into COSINE on 2012/03/29 at 15:45:16'>20120110010</AKA>
+   <AKA stamped-on-monument='no' Remarks='RINEX file'>CBRG</AKA>
+  </name >
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='B'>
+   <Lat>N43-57-43.04900</Lat>
+   <Lon>W78-10-49.66335</Lon>
+   <ellipsoidal-elev order='2'>54.760</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E726201.774</e>
+    <n>N4871512.832</n>
+    <mc>1-57-29.1</mc>
+    <csf>1.00022077</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E244841.490</e>
+    <n>N4872566.300</n>
+    <mc>-2-12-32.4</mc>
+    <csf>1.00039224</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E410692.480</e>
+    <n>N4869955.035</n>
+    <mc>0-54-57.9</mc>
+    <csf>1.00002928</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNv3-1997.0' order='B'>
+   <Lat>N43-57-43.04968</Lat>
+   <Lon>W78-10-49.66429</Lon>
+   <ellipsoidal-elev order='3'>54.748</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E726201.752</e>
+    <n>N4871512.852</n>
+    <mc>1-57-29.1</mc>
+    <csf>1.00022077</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E244841.470</e>
+    <n>N4872566.322</n>
+    <mc>-2-12-32.4</mc>
+    <csf>1.00039224</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E410692.459</e>
+    <n>N4869955.056</n>
+    <mc>0-54-57.9</mc>
+    <csf>1.00002928</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <location-text>
+   <p1>Created on 2012/03/29.</p1>
+   <p2>
+    <l> Cansel CanNet RTK Base Station - Cobourg</l>
+   </p2>
+  </location-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>C201</member-of-network>
+  <member-of-network usage='FREE'>RTKC2010</member-of-network>
+ </station >
+</cosine-stations> 

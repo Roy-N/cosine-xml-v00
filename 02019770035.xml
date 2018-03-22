@@ -1,0 +1,46 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='90009' status='1' Monument-type='CAP' station-type='-'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019770035</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020770035</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-38-28.02017</Lat>
+   <Lon>W79-29-38.45305</Lon>
+   <ellipsoidal-elev order='-'>100.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E621470.604</e>
+    <n>N4832899.801</n>
+    <mc>1-02-22.1</mc>
+    <csf>0.99976580</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E305282.904</e>
+    <n>N4833248.075</n>
+    <mc>0-00-14.9</mc>
+    <csf>0.99988432</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>100.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CC SIB</p1>
+   <p2>
+    <l> Township: City of Toronto  6.1M SOUTH GLENELLEN</l>
+    <l>DR E CL 12.4M WEST RIVERWOOD PKWY</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 2009/03/23, last</l>
+   <l>maintained: 1987/08/07</l>
+  </maintenance-text>
+ </station >
+</cosine-stations> 

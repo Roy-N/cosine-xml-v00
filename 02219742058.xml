@@ -1,0 +1,45 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='105915' status='1' Monument-type='CAP' station-type='-'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02219742058</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>022742058</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-39-51.27008</Lat>
+   <Lon>W79-19-34.16710</Lon>
+   <ellipsoidal-elev order='-'>79.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E634958.097</e>
+    <n>N4835727.467</n>
+    <mc>1-09-21.0</mc>
+    <csf>0.99981164</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E318820.633</e>
+    <n>N4835831.770</n>
+    <mc>0-07-12.1</mc>
+    <csf>0.99989003</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>79.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP OF BC</p1>
+   <p2>
+    <l> Township: City of Toronto  BC CSW NORTH SIDE</l>
+    <l>QUEEN STREET EAST NEAR #1354 OPPOSITE KNOX AVENUE</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last maintained: 2002/09/09</l>
+  </maintenance-text>
+ </station >
+</cosine-stations> 

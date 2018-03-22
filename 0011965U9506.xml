@@ -1,0 +1,72 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='8865' status='Existing' Monument-type='BM' station-type='SPIR'> 
+  <name stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='no' Remarks='COSINE name 2001/12/20'>0011965U9506</AKA>
+   <AKA stamped-on-monument='no' Remarks='From COSINE XDB file'>00165U9506</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='From COSINE XDB file'>65U9506</AKA>
+   <AKA stamped-on-monument='no' Remarks='From COSINE XDB file'>COBO 2-1965</AKA>
+  </name >
+  <ellipsoidal-data datum='NAD-1983:ORIG' order='-'>
+   <Lat>N43-57-23.2xxxx</Lat>
+   <Lon>W78-9-51.8xxxx</Lon>
+   <ellipsoidal-elev order='-'>40.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E727511.xxx</e>
+    <n>N4870947.xxx</n>
+    <mc>1-58-08.6</mc>
+    <csf>1.00023036</csf>
+   </utm>
+   <utm zone='18'>
+    <e>E246107.xxx</e>
+    <n>N4871907.xxx</n>
+    <mc>-2-11-51.4</mc>
+    <csf>1.00038659</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E411991.xxx</e>
+    <n>N4869365.xxx</n>
+    <mc>0-55-37.7</mc>
+    <csf>1.00003496</csf>
+   </mtm>
+   <mtm zone='9'>
+    <e>E171220.xxx</e>
+    <n>N4869845.xxx</n>
+    <mc>-1-09-19.6</mc>
+    <csf>1.00011308</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD2013' order='1'>
+   <orthometric-elev>75.985</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='CGVD-1928:1978' order='1'>
+   <orthometric-elev>76.333</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p2>
+    <l> Town of Cobourg - GAUGE HOUSE ON WHARF AT SOUTH</l>
+    <l>END OF DIVISION STREET, 0.3 KM SOUTH OF POST OFFICE, TABLET</l>
+    <l>IN TOP OF CONCRETE  FOUNDATION AT SOUTHEAST CORNER.</l>
+    <l>ESTABLISHED BY HYDROGRAPHIC SERVICE.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> CGVD28 updated to 1999 value (previous: 76.3430</l>
+   <l>m); Inspected 1988, 1999, Nov 2015. NOTE: NOV 2015</l>
+   <l>MEASUREMENTS FROM PRIVATE SURVEY FIRM SUGGEST MONUMENT HAS</l>
+   <l>POSSIBLY MOVED DOWN FURTHER 6-8 mm.</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FIXV'>1514AV</member-of-network>
+ </station >
+</cosine-stations> 

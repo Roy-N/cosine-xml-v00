@@ -1,0 +1,72 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='95568' status='1' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019930092</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020930092</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-42-50.57174</Lat>
+   <Lon>W79-33-08.93972</Lon>
+   <ellipsoidal-elev order='-'>151.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E616613.216</e>
+    <n>N4840915.758</n>
+    <mc>1-00-01.6</mc>
+    <csf>0.99974358</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E300570.654</e>
+    <n>N4841351.567</n>
+    <mc>-0-02-10.6</mc>
+    <csf>0.99987654</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-42-50.76404</Lat>
+   <Lon>W79-33-08.23879</Lon>
+   <ellipsoidal-elev order='4'>114.870</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E616625.454</e>
+    <n>N4841137.804</n>
+    <mc>1-00-02.0</mc>
+    <csf>0.99974928</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E300586.469</e>
+    <n>N4841573.425</n>
+    <mc>-0-02-10.1</mc>
+    <csf>0.99988220</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>151.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>151.xxx</orthometric-elev>
+   <mdefl>-0.5</mdefl>
+   <pvdefl>0.8</pvdefl>
+   <undulation>-36.380</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CP OF BC</p1>
+   <p2>
+    <l> Township: City of Toronto  BC IN SE COR CSW</l>
+    <l>DENSMORE AVE.& BURRARD RD.</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 1993/05/03, last</l>
+   <l>maintained: 1993/05/03</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 

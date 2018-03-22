@@ -1,0 +1,46 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD-1928:1978, CGVD-1928:PRE-1978--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='89333' status='1' Monument-type='CAP' station-type='-'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02019760125</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>020760125</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-39-16.85514</Lat>
+   <Lon>W79-30-18.47348</Lon>
+   <ellipsoidal-elev order='-'>113.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E620546.793</e>
+    <n>N4834390.172</n>
+    <mc>1-01-55.4</mc>
+    <csf>0.99976102</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E304386.070</e>
+    <n>N4834755.078</n>
+    <mc>-0-00-12.8</mc>
+    <csf>0.99988228</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>113.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>CC SIB</p1>
+   <p2>
+    <l> Township: City of Toronto  12.19 NCL QUEEN</l>
+    <l>MARYS DR 5.79 WCL KINGSWAY CRES</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 1987/05/28, last</l>
+   <l>maintained: 1987/05/28</l>
+  </maintenance-text>
+ </station >
+</cosine-stations> 

@@ -1,0 +1,71 @@
+<?xml version='1.0'?> 
+<!--ELLIPSOIDAL(SPHEROIDAL) DATUM: NAD-1927:1974, NAD-1927:1976, NAD-1983:CSRS:CBNV6-2010.0, NAD-1983:CSRS:CBNv3-1997.0, NAD-1983:ORIG--> 
+<!--GEOIDAL(ORTHOMETRIC) DATUM(-A): CGVD2013, CGVD-1928:1978, CGVD-1928:PRE-1978, HT-1997, HT-2001--> 
+<!--# sta recds in output: 000001--> 
+<cosine-stations lang='en-CA' xml:lang='en-CA'>
+ <station id='105913' status='2' Monument-type='CAP' station-type='GPS'> 
+  <name stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>
+   <AKA stamped-on-monument='unknown' Remarks='COSINE name 2001/12/20'>02219742056</AKA>
+   <AKA stamped-on-monument='unknown' Remarks='Superseded Toronto name'>022742056</AKA>
+  </name >
+  <ellipsoidal-data datum='TOR_H-1974' order='T3'>
+   <Lat>N43-39-48.14705</Lat>
+   <Lon>W79-19-18.50212</Lon>
+   <ellipsoidal-elev order='-'>77.xxx</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E635310.893</e>
+    <n>N4835638.207</n>
+    <mc>1-09-31.8</mc>
+    <csf>0.99981312</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E319171.784</e>
+    <n>N4835736.140</n>
+    <mc>0-07-22.9</mc>
+    <csf>0.99989046</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <ellipsoidal-data datum='NAD-1983:CSRS:CBNV6-2010.0' order='D'>
+   <Lat>N43-39-48.34787</Lat>
+   <Lon>W79-19-17.77507</Lon>
+   <ellipsoidal-elev order='4'>39.798</ellipsoidal-elev>
+   <utm zone='17'>
+    <e>E635323.175</e>
+    <n>N4835860.501</n>
+    <mc>1-09-32.3</mc>
+    <csf>0.99981900</csf>
+   </utm>
+   <mtm zone='10'>
+    <e>E319187.647</e>
+    <n>N4835958.245</n>
+    <mc>0-07-23.4</mc>
+    <csf>0.99989630</csf>
+   </mtm>
+  </ellipsoidal-data>
+  <geoidal-data datum='CGVD-1928:PRE78' order='-'>
+   <orthometric-elev>77.xxx</orthometric-elev>
+   <mdefl></mdefl>
+   <pvdefl></pvdefl>
+   <undulation></undulation>
+  </geoidal-data>
+  <geoidal-data datum='HT-2001' order='-'>
+   <orthometric-elev>76.xxx</orthometric-elev>
+   <mdefl>-1.7</mdefl>
+   <pvdefl>0.0</pvdefl>
+   <undulation>-36.437</undulation>
+  </geoidal-data>
+  <location-text>
+   <p1>BC CSW</p1>
+   <p2>
+    <l> Township: City of Toronto  NE COR INT EASTERN</l>
+    <l>AVE & CONNAUGHT AVE</l>
+   </p2>
+  </location-text>
+  <maintenance-text>
+   <l> Toronto: last inspected: 1985/03/01</l>
+  </maintenance-text>
+  <misc-info>
+  </misc-info>
+  <member-of-network usage='FREE'>2119CS</member-of-network>
+ </station >
+</cosine-stations> 
